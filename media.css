@@ -1,0 +1,193 @@
+/* navbar */
+@media screen and (max-width:1200px) {
+    .navbar{
+        margin: 0;
+    }
+    .navbar .container{
+        justify-content: space-between;
+    }
+    .navbar .container h1{
+        font-size: 30px;
+        margin: 0;
+    }
+    .navbar .container span{
+        font-size: 30px;
+        margin: 0;
+        display: inline;
+    }
+    .navbar ul{
+    gap:10px;
+
+    }
+ .navbar ul li a {
+    font-size: 1rem;
+ }
+ .darkMood{
+    margin-right: 50px;
+ }
+}
+
+    /* Home */
+    @media screen and (min-width: 1024px) {
+        .Home{
+          height: fit-content;
+        }
+      }
+    
+@media screen and (max-width:992px) {
+    .Home{
+        height: 1000px;
+    }
+    .Home .container{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+    .Home .container .content{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0 ;
+    }
+    .Home img{
+        width: 350px;
+        padding: 10px;
+    }
+
+.Home .container .content h2{
+max-width: 500px;
+}
+.Home .container .content  p{
+    max-width: 400px;
+}
+.Home .links{
+    gap: 1.5rem;
+    padding-bottom: 20px;
+}
+ .Home .book{
+    border-radius:  3.125rem;
+
+}
+
+}
+
+
+/* chefs */
+@media screen and (max-width: 992px) {
+  
+    .Chefs .cards{
+        flex-wrap: wrap;
+    }
+    .Chefs .card {
+        width: 45%;      
+  }
+}
+@media screen and (max-width: 786px) {
+    .Chefs .cards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        
+
+    }
+.Chefs .card {
+    width: 100%;
+}
+}
+
+
+
+/* gallery */
+@media screen and (max-width: 992px) {
+    .meals {
+      /* height: 1300px; */
+      columns: 2;
+    }
+    .pizza {
+      order: 1;
+    }
+    .fried {
+      order: 6;
+    }
+     .omelette {
+      order: 4;
+    }
+     .kofta {
+      order: 7;
+    }
+     .burger {
+      order: 2;
+    }
+     .pizza-slices {
+      order: 3;
+    }
+     .steak {
+      order: 5;
+    }
+  }
+  @media screen and (max-width:786px) {
+    .meals{
+     display: flex;
+     flex-wrap: wrap;
+     columns: 1;
+    }
+   } 
+ 
+
+
+/* .contact */
+@media screen and (max-width: 1200px)  {
+ .contact .details .address{
+    width: 100%;
+ }
+ 
+}
+
+
+/* footer */
+@media screen and (max-width: 1200px) {
+    .footer{
+        margin: 0;
+        /* height: 1300px; */
+    }
+    .footer .container{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .footer .container :is(.about, .contactDetails) {
+       width:  48%;
+        order: 1;
+      }
+    
+      .footer .container :is(.subscripe) {
+        width: 100%;
+        order: 2;
+      }
+}
+@media screen and (max-width:786px) {
+    .footer{
+        margin: 0;
+        /* height: 1270px; */
+    }
+    .footer .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5px;
+    }
+.footer .container :is(.about, .contactDetails, .subscripe){
+    width: 100%;
+   
+}
+.subscripe-group input, .btn{
+width: 100%;
+margin: 3px;
+}
+}
+
