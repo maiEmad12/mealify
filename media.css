@@ -26,6 +26,15 @@
     margin-right: 50px;
  }
 }
+@media screen and (max-width:700px){
+    .navbar ul{
+        gap:6px;
+    margin-right: 10px;
+        }
+     .navbar ul li a {
+        font-size: 14px;
+     }
+}
 
     /* Home */
     @media screen and (min-width: 1024px) {
